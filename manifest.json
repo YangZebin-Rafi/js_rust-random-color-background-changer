@@ -1,0 +1,11 @@
+{
+  "name": "Random Color Plugin",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Change the background color of the current page to a random color",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_title": "Random Color Plugin",
+    "default_popup": "popup.html"
+  }
+}
